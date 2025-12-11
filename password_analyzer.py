@@ -1,7 +1,5 @@
 import math
 
-# password_analyzer.py
-
 # Minimum uzunluk kontrolü
 def has_min_length(pw, min_length=12):
     return len(pw) >= min_length
