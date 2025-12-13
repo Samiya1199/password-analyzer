@@ -70,9 +70,4 @@ def analyze_password(pw):
     else:
         strength = "Zayıf"
 
-    print(f"Password Strength: {strength}")
-
-# Kullanıcıdan parola al
-if __name__ == "__main__":
-    password = input("Enter your password: ")
-    analyze_password(password)
+    return strength
