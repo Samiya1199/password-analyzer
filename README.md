@@ -11,11 +11,6 @@ This project analyzes password strength using multiple security techniques.
 - Password hashing using bcrypt
 - Tkinter-based GUI
 
-## How to Run
-```bash
-pip install bcrypt
-python gui.py
-
 
 ## Türkçe Açıklama
 
@@ -30,8 +25,11 @@ Bu proje, şifre güvenliğini analiz etmek için geliştirilmiş bir Python uyg
 - bcrypt kullanılarak şifre hashleme
 - Tkinter tabanlı grafik arayüz (GUI)
 
-### Çalıştırma
+
+## How to Run
 ```bash
 pip install bcrypt
 python gui.py
+
+
 
