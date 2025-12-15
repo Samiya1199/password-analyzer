@@ -1,16 +1,37 @@
-🔐 Password Analyzer
-Python ile yazılmış basit bir parola analiz aracı. Kontrol ettiği kriterler:
+# Password Analyzer with GUI
 
-Minimum uzunluk (≥12 karakter)
+This project analyzes password strength using multiple security techniques.
 
-En az bir büyük harf
+## Features
+- Minimum length, uppercase, lowercase, digit, special character checks
+- Shannon entropy calculation
+- Dictionary-based weak password detection
+- Blacklist and simple pattern detection
+- Rate limiting with temporary lockout
+- Password hashing using bcrypt
+- Tkinter-based GUI
 
-En az bir küçük harf
+## How to Run
+```bash
+pip install bcrypt
+python gui.py
 
-En az bir rakam
 
-En az bir özel karakter
+## Türkçe Açıklama
 
-Entropy hesaplaması ile matematiksel güvenlik ölçümü
+Bu proje, şifre güvenliğini analiz etmek için geliştirilmiş bir Python uygulamasıdır.
 
-Parolanın gücünü Zayıf / Orta / Güçlü olarak sınıflandırır.
+### Özellikler
+- Minimum uzunluk, büyük/küçük harf, rakam ve özel karakter kontrolleri
+- Shannon entropy hesaplaması
+- Yaygın şifreler için dictionary kontrolü
+- Blacklist ve basit pattern (ör. ardışık rakamlar) tespiti
+- Rate limiting (belirli sayıda denemeden sonra geçici kilitleme)
+- bcrypt kullanılarak şifre hashleme
+- Tkinter tabanlı grafik arayüz (GUI)
+
+### Çalıştırma
+```bash
+pip install bcrypt
+python gui.py
+
