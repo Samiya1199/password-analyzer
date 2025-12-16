@@ -42,7 +42,7 @@ The goal of this project is not only to classify passwords as weak or strong, bu
 
 ---
 
-## 🔐 Password Analyzer with GUI (Türkçe)
+## 🔐 Password Analyzer with GUI 
 
 Bu proje, kullanıcı tarafından girilen şifrelerin güvenlik seviyesini hem **kural tabanlı** hem de **istatistiksel** yöntemler kullanarak analiz eden, Python ile geliştirilmiş bir şifre analiz uygulamasıdır.  
 Grafik kullanıcı arayüzü (GUI) sayesinde kullanıcıya anlık ve anlaşılır geri bildirim sunar.
@@ -79,6 +79,7 @@ Projenin amacı yalnızca bir şifreyi “zayıf” veya “güçlü” olarak s
 
 
 Example of password analysis and feedback via the GUI
+
 GUI üzerinden şifre analizi ve geri bildirim örneği
 
 
