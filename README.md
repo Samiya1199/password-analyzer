@@ -77,14 +77,18 @@ Projenin amacı yalnızca bir şifreyi “zayıf” veya “güçlü” olarak s
   - Şifre gücüne göre renkli geri bildirim (zayıf, orta, güçlü)
 
 
-## How to Run
-```bash
-pip install bcrypt
-python gui.py
-
 
 Example of password analysis and feedback via the GUI
 GUI üzerinden şifre analizi ve geri bildirim örneği
 
 
 ![Demo](demo.gif)
+
+
+## How to Run
+```bash
+pip install bcrypt
+python gui.py
+
+
+
