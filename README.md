@@ -1,3 +1,4 @@
+
 ## 🔐 Password Analyzer with GUI
 
 
@@ -92,3 +93,7 @@ python gui.py
 
 
 
+=======
+# password-analyzer
+A Python-based password analysis utility featuring rule-based validation and Shannon entropy scoring to assess overall password strength
+>>>>>>> ea9a6e0b6dc084cbd5e638fd8e489fb4b8a18836
